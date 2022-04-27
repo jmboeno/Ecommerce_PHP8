@@ -1,0 +1,22 @@
+{
+  "name": "boenojonasm/ecommerce_php8",
+  "description": "Ecommerce PHP",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jonas Boeno",
+      "email": "boeno.jonas@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "core\\": "core/"
+    },
+    "files": [
+      "config.php"
+    ]
+  }
+}
